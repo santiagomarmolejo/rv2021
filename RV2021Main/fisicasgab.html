@@ -14,16 +14,15 @@
     <a-scene physics="gravity: -9.8">
         <a-assets>
             <img id="skyTexture" src="assets/images/skymaptokyo.jpeg">
-            <a-asset-item id="casagab" src="assets/models/casa/old-house.obj"></a-asset-item>
-            <a-asset-item id="materialcasagab" src="assets/models/casa/old-house.mtl"></a-asset-item>
+            <a-asset-item id="casagab" src="assets/models/casamodelada/casaloft.obj"></a-asset-item>
+            <a-asset-item id="materialcasagab" src="assets/models/casamodelada/casaloft.mtl"></a-asset-item>
         </a-assets>
         <a-sky src="#skyTexture"></a-sky>
         <a-entity obj-model="obj: #casagab; mtl: #materialcasagab" static-body="shape: mesh" position="3 -4 6" rotation="0 180 0"></a-entity>
         <a-entity id="rig" camera look-controls wasd-controls position="0 0 0" jump-ability kinematic-body></a-entity>
         <a-plane position= "0 -2 -5" rotation= "90 0 0" scale="50 50 50" static-body></a-plane>
 
-        <a-entity particle-system="positionSpread: 1 1 0; randomise:true; texture: assets/images/sasha.png; color: #48BF2C,#490BB0; type: 3; size: 15; maxAge: 8; particleCount: 100" 
-        position="0 20 1" ></a-entity>
+    
        
     </a-scene>
 </body>
