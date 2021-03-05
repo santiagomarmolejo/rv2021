@@ -15,15 +15,21 @@
     <a-scene physics="gravity: -9.8">
         <a-assets>
             <img id="skyTexture" src="assets/images/skymapnuevo.jpeg">
+
             <a-asset-item id="aptoloft" src="assets/models/casamodelada/aptoloft.obj"></a-asset-item>
             <a-asset-item id="materialaptoloft" src="assets/models/casamodelada/aptoloft.mtl"></a-asset-item>
+
             <a-asset-item id="estufa" src="assets/models/ObjetosCasa/Cocina/Cocina 1.obj"></a-asset-item>
             <a-asset-item id="materialestufa" src="assets/models/ObjetosCasa/Cocina/Cocina 1.mtl"></a-asset-item>
+
+            <a-asset-item id="inodoro" src="assets/models/ObjetosCasa/Baño/Inodoro.obj"></a-asset-item>
+            <a-asset-item id="materialinodoro" src="assets/models/ObjetosCasa/Baño/Inodoro.mtl"></a-asset-item>
 
         </a-assets>
         <a-sky src="#skyTexture"></a-sky>
         <a-entity obj-model="obj: #aptoloft; mtl: #materialaptoloft" static-body="shape: mesh" position="3 -4 6" rotation="0 180 0"></a-entity>
-        <a-entity obj-model="obj: #estufa; mtl: #materialaptoloft" static-body="shape: mesh" position="4.108 -4 7.147" rotation="0 180 0" scale="0.1 0.1 0.1"></a-entity>
+        <a-entity obj-model="obj: #estufa; mtl: #materialaptoloft" static-body="shape: mesh" position="4.108 -4 7.147" rotation="0 180 0" scale="0.15 0.15 0.15"></a-entity>
+        <a-entity obj-model="obj: #inodoro; mtl: #materialaptoloft" static-body="shape: mesh" position="6.285 -4 4.192" rotation="0 -82.585 0" scale="0.05 0.05 0.05"></a-entity>
         <a-entity id="rig" camera look-controls wasd-controls position="0 0 0" jump-ability kinematic-body></a-entity>
         <a-plane position= "0 -2 -5" rotation= "90 0 0" scale="50 50 50" static-body></a-plane>
 
