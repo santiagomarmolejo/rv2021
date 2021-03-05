@@ -1,0 +1,300 @@
+newmtl apartment_living_room:Activemerchandiser_round_metal_table_blue_glass
+illum 4
+Kd 0.95 0.98 1.00
+Ka 0.00 0.00 0.00
+Tf 0.18 0.18 0.18
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:Box006Default
+illum 4
+Kd 0.69 0.69 0.69
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 96.08
+newmtl apartment_living_room:Box007Default
+illum 4
+Kd 0.69 0.69 0.69
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 96.08
+newmtl apartment_living_room:Derevo
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:Gold
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:Material__0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd decoration_set_wood2.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:Material__2606
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.57 0.57 0.57
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:Material__2145964078
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 10233_001_Chesterfield_Oak_06.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:ROCKWELL_Brown
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd rockwell_brown.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:ROCKWELL_Orange
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd rockwell_orange.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:ROCKWELL_legs_dark
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd rockwell_wood.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:___Default
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Square_Carpet_brayn.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:___Default4
+illum 4
+Kd 0.85 0.85 0.85
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:b0b0b0
+illum 4
+Kd 0.69 0.69 0.69
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:chrome
+illum 4
+Kd 0.09 0.09 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:commissionMaterial
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd commission.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 96.08
+newmtl apartment_living_room:commission_2_Material
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd commission(2).jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 96.08
+newmtl apartment_living_room:commission_3_Material
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd commission(3).jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 96.08
+newmtl apartment_living_room:decoration_set_Glass
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.11 0.11 0.11
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:decoration_set_Jar
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd decoration_set_jar_bump.png
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:decoration_set_Metal
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd decoration_set_metal_gloss.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:decoration_set_OldGold
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd decoration_set_metal_refl_gloss.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:decoration_set_Photo1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd decoration_set_Photo1.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:decoration_set_Vase
+illum 4
+Kd 1.00 0.42 0.42
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:decoration_set_Wood
+illum 4
+Kd 0.03 0.13 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:decoration_set_Wood2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd decoration_set_wood2.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:null_
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl apartment_living_room:oblojka_2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd oblojka_01.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:oblojka_3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd oblojka_03.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:stranici
+illum 4
+Kd 0.40 0.40 0.40
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:vray_01___Default
+illum 4
+Kd 0.00 0.01 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:vray_02___Default
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Square_Tex3.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:vray_03___Default
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Square_Tex3.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:vray_04___Default
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Square_Tex2.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08
+newmtl apartment_living_room:vray_05___Default
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Square_Tex4.jpg
+Ni 1.00
+Ks 0.01 0.01 0.01
+Ns 96.08

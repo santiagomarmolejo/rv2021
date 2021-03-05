@@ -1,0 +1,61 @@
+# Blender MTL File: 'None'
+# Material Count: 6
+
+newmtl Physical
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.001176 0.001176 0.001176
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl poltronafrau_flair_208x228_mat_1__mtl_1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.862745 0.819608 0.709804
+Ks 0.000392 0.000392 0.000392
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump dcmap_poltronafrau_flair_63c7b.jpg
+
+newmtl poltronafrau_flair_208x228_mat_1__mtl_2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.631373 0.682353
+Ks 0.000392 0.000392 0.000392
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump dcmap_poltronafrau_flair_ef1f0.jpg
+
+newmtl poltronafrau_flair_208x228_mat_1__mtl_3
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.631373 0.682353
+Ks 0.000392 0.000392 0.000392
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump dcmap_poltronafrau_flair_48ac9.jpg
+
+newmtl poltronafrau_flair_208x228_mat_1__mtl_4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.631373 0.682353
+Ks 0.000392 0.000392 0.000392
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump dcmap_poltronafrau_flair_48a52.jpg
+
+newmtl poltronafrau_flair_208x228_mat_1__mtl_5
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.631373 0.682353
+Ks 0.000392 0.000392 0.000392
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump dcmap_poltronafrau_flair_761c5.jpg
