@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entity+Components</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+    <script>
+        AFRAME.registerComponent('caja',{
+            schema: {
+                ancho: {type: 'number', default: 1},
+                alto: {type: 'number', default: 1},
+                profundidad: {type: 'number', default: 1},
+                color: {type: 'color', default: "red"}
+            },
+
+            init: function(){
+                var data = this.data;
+                var el = this.el;
+                
+                //creamos la geometria
+                this.geometry = new THREE.BoxBufferGeometry(data.ancho, data.alto, data.profundidad);
+                
+                //creamos el material
+                this.material = new THREE.MeshStandardMaterial({color: data.color});
+               
+                //creamos la malla
+                this.mesh = new THREE.Mesh(this.geometry, this.material);
+
+                //Le ponemos la malla a la entidad
+                el.setObject3D('mesh', this.mesh);
+            }
+        });
+            
+            AFRAME.registerComponent('cilindro',{
+            schema: {
+                radiusTop: {type: 'number', default: 1},
+                radiusBottom: {type: 'number', default: 1},
+                height: {type: 'number', default: 1},
+                radialSegments: {type: 'number', default: 1},
+                heightSegments: {type: 'number', default: 8},
+                openEnded: {type: 'boolean', default: false},
+                color: {type: 'color', default: "green"}
+            },
+
+            init: function(){
+                var data = this.data;
+                var el = this.el;
+                
+                //creamos la geometria
+                this.geometry = new THREE.CylinderBufferGeometry(data.radiusTop, data.radiusBottom, data.height, data.radialSegments, data.heightSegments, data.openEnded);
+                
+                //creamos el material
+                this.material = new THREE.MeshStandardMaterial({color: data.color});
+               
+                //creamos la malla
+                this.mesh = new THREE.Mesh(this.geometry, this.material);
+
+                //Le ponemos la malla a la entidad
+                el.setObject3D('mesh', this.mesh);
+            },
+        });
+    </script>
+    <a-scene>
+        <a-entity cilindro></a-entity>
+    </a-scene>
+</body>
+</html>

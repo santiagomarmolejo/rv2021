@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granjadepruebas</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script> 
+</head>
+<body>
+    <a-scene physics="gravity: -9.8">
+        <a-assets>
+            <img id="skyTexture" src="assets/images/skymaptokyo.jpeg">
+            <a-asset-item id="casagab" src="assets/models/casa/old-house.obj"></a-asset-item>
+            <a-asset-item id="materialcasagab" src="assets/models/casa/old-house.mtl"></a-asset-item>
+        </a-assets>
+        <a-sky src="#skyTexture"></a-sky>
+        <a-entity obj-model="obj: #casagab; mtl: #materialcasagab" static-body="shape: mesh" position="3 -4 6" rotation="0 180 0"></a-entity>
+        <a-entity id="rig" camera look-controls wasd-controls position="0 0 0" jump-ability kinematic-body></a-entity>
+        <a-plane position= "0 -2 -5" rotation= "90 0 0" scale="50 50 50" static-body></a-plane>
+
+        <a-entity particle-system="positionSpread: 1 1 0; randomise:true; texture: assets/images/sasha.png; color: #48BF2C,#490BB0; type: 3; size: 15; maxAge: 8; particleCount: 100" 
+        position="0 20 1" ></a-entity>
+       
+    </a-scene>
+</body>
+</html>

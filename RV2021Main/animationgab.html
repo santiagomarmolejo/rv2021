@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimationGab</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+</head>
+<body>
+    <a-scene>
+
+        <a-entity position="-4.5 0 0" rotation="0 -45 0">
+            <a-camera id="miCamara"></a-camera>
+        </a-entity>
+        <a-plane position= "0 -2 -5" rotation= "-90 0 0" scale="50 50 50" static-body color="black"></a-plane>
+        <a-box id="cuboAmarillo" position= "4 0 4" rotation= "0 0 0" scale="3 3 3" color="yellow" animation="property: position; to: 6 6 -6;
+        dir: alternate; dur: 2000; loop: true;"></a-box>
+        <a-box id="cuboNegro" position= "7 0 7" rotation= "0 0 0" scale="3 3 3" color="red" look-at="#cuboAmarillo"></a-box>
+
+    </a-scene>
+</body>
+</html>
