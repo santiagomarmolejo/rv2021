@@ -9,7 +9,6 @@
     <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
     <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script> 
-    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 <body>
     
@@ -26,22 +25,23 @@
             <a-asset-item id="inodoro" src="assets/models/ObjetosCasa/Baño/Inodoro.obj"></a-asset-item>
             <a-asset-item id="materialinodoro" src="assets/models/ObjetosCasa/Baño/Inodoro.mtl"></a-asset-item>
 
-            <a-assets-item id="Sala" src="assets/models/ObjetosCasa/Sala/Sala/Sala.obj"> </a-assets-item>
-            <a-assets-item id="materialSala" src="assets/models/ObjetosCasa/Sala/Sala/Sala.mtl"> </a-assets-item>
+            <a-assets-item id="cuarto" src="assets/models/ObjetosCasa/Cuarto/bed/scene.gltf"> </a-assets-item>
+
+            
             
 
         </a-assets>
 
-        <a-invisibles>
-            
-        </a-invisibles>
+    
 
         <a-sky src="#skyTexture"></a-sky>
         <a-entity obj-model="obj: #aptoloft; mtl: #materialaptoloft" position="3 -4 6" rotation="0 180 0"></a-entity>
-        <a-entity obj-model="obj: #estufa; mtl: #materialaptoloft" static-body="shape: mesh" position="4.108 -4 7.147" rotation="0 180 0" scale="0.15 0.15 0.15"></a-entity>
-        <a-entity obj-model="obj: #inodoro; mtl: #materialaptoloft" static-body="shape: mesh" position="6.285 -4 4.192" rotation="0 -82.585 0" scale="0.05 0.05 0.05"></a-entity>
-        <a-entity obj-model="obj: #Sala; mtl: #materialSala" static-body="shape: mesh" position="4.285 -4 6" rotation="0 -82.585 0" scale="1.2 1.2 1.2 "></a-entity>
+        <a-entity obj-model="obj: #estufa; mtl: #materialestufa" static-body="shape: mesh" position="4.108 -4 7.147" rotation="0 180 0" scale="0.15 0.15 0.15"></a-entity>
+        <a-entity obj-model="obj: #inodoro; mtl: #materialinodoro" static-body="shape: mesh" position="6.285 -4 4.192" rotation="0 -82.585 0" scale="0.05 0.05 0.05"></a-entity>
+       
         
+        <a-entity gltf-model="#cuarto" scale="0.02 0.02 0.02" position="0 -3 4" static-body="type: mesh"></a-entity>
+
         <a-entity id="rig" camera look-controls wasd-controls position="0 0 0" jump-ability kinematic-body></a-entity>
         <a-plane position= "0 -2 -5" rotation= "90 0 0" scale="50 50 50" static-body></a-plane>
 
