@@ -72,11 +72,11 @@
             <a-assets-item id="cuadro1" src="assets/models/ObjetosCasa/Sala/cuadro1/scene.gltf"> </a-assets-item>
 
             <!-- CUARTO PRINCIPAL -->
-            <a-assets-item id="camaPadres" src="assets/models/ObjetosCasa/Cuarto/Padres/scene.gltf"> </a-assets-item>
+            <a-assets-item id="camaPadres" src="assets/models/ObjetosCasa/Cuarto/Padres/camapadres/scene.gltf"> </a-assets-item>
             
            
             <!-- CUARTO SECUNDARIO -->
-            <a-assets-item id="camaHijo" src="assets/models/ObjetosCasa/Cuarto/Hijo/scene.gltf"> </a-assets-item>
+            <a-assets-item id="camaHijo" src="assets/models/ObjetosCasa/Cuarto/Hijos/camahijos/scene.gltf"> </a-assets-item>
 
 
         </a-assets>
@@ -123,17 +123,18 @@
         <a-entity gltf-model="#mesita" scale="0.023 0.023 0.023" position="10.587 -4.035 4.084" rotation="0 -90 0"></a-entity>
         <a-entity gltf-model="#planta" scale="1 1.200 1" position="14.185 -4.010 1.563" rotation="0 0 0"></a-entity>
         <a-entity gltf-model="#vidrio2piso" scale="1.128 0.245 0.232" position="8.310 -0.530 -2.350" rotation="-90 180 0"></a-entity>
-
-        <!-- IMPORTAR DE LOS CUARTOS -->
-        <a-entity gltf-model="#camaHijo" scale="0.01 0.01 0.012" position="11.886 -0.995 -6.619" rotation="0 90 0"> </a-entity>
-        <a-entity gltf-model="#camaPadres" scale="0.001 0.001 0.0014" position="15.596 -0.992 -7.500" rotation="0 -90 0"> </a-entity>
         <a-entity gltf-model="#tapete" scale="2.190 1.505 2.001" position="11.381 -3.963 4.084" rotation="0 0 0"></a-entity>
         <a-entity gltf-model="#mesadecorar" scale="0.002 0.002 0.002" position="12.214 -4.142 8.798" rotation="0 180 0"></a-entity>
         <a-entity gltf-model="#decorativo1" scale="0.003 0.003 0.003" position="11.243 -2.075 9.361" rotation="0 0 0"></a-entity>
         <a-entity gltf-model="#libreria1" scale="0.06 0.08 0.1" position="7.202 -4.142 8.513" rotation="0 90 0"></a-entity>
         <a-entity gltf-model="#libreria2" scale="0.06 0.08 0.1" position="5.737 -4.142 8.513" rotation="0 90 0"></a-entity>
         <a-entity gltf-model="#cuadro1" scale="0.012 0.012 0.012" position="4.295 -2.527 6.032" rotation="0 90 0"></a-entity>
-       
+
+        <!-- IMPORTAR DE CUARTO PRINCIPAL -->
+        <a-entity gltf-model="#camaHijo" scale="0.01 0.01 0.012" position="11.886 -0.995 -6.619" rotation="0 90 0"> </a-entity>
+
+        <!-- IMPORTAR DE CUARTO SECUNDARIO -->
+        <a-entity gltf-model="#camaPadres" scale="0.001 0.001 0.0014" position="15.596 -0.992 -7.500" rotation="0 -90 0"> </a-entity>
 
         <!-- OTROS -->
         <a-entity id="rig" camera look-controls wasd-controls="acceleration : 150" position="14 -2 9" kinematic-body></a-entity>
