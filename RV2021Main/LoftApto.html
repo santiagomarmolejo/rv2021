@@ -35,12 +35,13 @@
             <a-assets-item id="ventana2arriba" src="assets/models/ObjetosCasa/Sala/ventananueva/scene.gltf"> </a-assets-item>
 
             <!-- COCINA -->
-            <a-assets-item id="mueblecocina" src="assets/models/ObjetosCasa/Cocina/mueble/scene.gltf"> </a-assets-item>
+            <a-assets-item id="cocinaentera" src="assets/models/ObjetosCasa/Cocina/cocinaentera/scene.gltf"> </a-assets-item>
 
             <!-- BAÑO -->
             <a-assets-item id="ventanabaño" src="assets/models/ObjetosCasa/Baño/ventanabaño/scene.gltf"> </a-assets-item>
-            <a-assets-item id="tina" src="assets/models/ObjetosCasa/Baño/tina/scene.gltf"> </a-assets-item>
+            <a-assets-item id="tina" src="assets/models/ObjetosCasa/Baño/showercabin/scene.gltf"> </a-assets-item>
             <a-assets-item id="plantabaño" src="assets/models/ObjetosCasa/Baño/plantabaño/scene.gltf"> </a-assets-item>
+            <a-assets-item id="lavamanos" src="assets/models/ObjetosCasa/Baño/sink/scene.gltf"> </a-assets-item>
             
             
 
@@ -65,12 +66,14 @@
         <a-entity gltf-model="#ventana2arriba" scale="0.025 0.020 0.021" position="15.138 0.276 -5.897" rotation="0 90 0"></a-entity>
 
         <!-- IMPORTAR DE LA COCINA -->
-        <a-entity gltf-model="#mueblecocina" scale="1.5 1.5 1.5" position="10.200 -4.196 8.842" rotation="0 180 0"></a-entity>
+        <a-entity gltf-model="#cocinaentera" scale="0.035 0.027 0.035" position="10.943 -4.190 -7.471" rotation="0 0 0"></a-entity>
 
         <!-- IMPORTAR DEL BAÑO -->
         <a-entity gltf-model="#ventanabaño" scale="0.018 0.015 0.01" position="15.168 -2.620 -9.650" rotation="0 90 0"></a-entity>
-        <a-entity gltf-model="#tina" scale="0.02 0.015 0.015" position="15.589 -4.107 -17.321" rotation="0 0 0"></a-entity>
-        <a-entity gltf-model="#plantabaño" scale="1 0.814 1" position="14.070 -4.030 -8.349" rotation="0 0 0"></a-entity>
+        <a-entity gltf-model="#tina" scale="1 1.233 1" position="13.082 -3.539 -10.981" rotation="0 0 0"></a-entity>
+        <a-entity gltf-model="#plantabaño" scale="1 0.814 1" position="14.513 -4.030 -11.053" rotation="0 0 0"></a-entity>
+        <a-entity gltf-model="#lavamanos" scale="2.253 1.409 1.548" position="12.823 -2.428 -8.228" rotation="0 180 0"></a-entity>
+        
 
         <!-- OTROS -->
         <a-entity id="rig" camera look-controls wasd-controls position="14 -2 9" jump-ability kinematic-body></a-entity>
