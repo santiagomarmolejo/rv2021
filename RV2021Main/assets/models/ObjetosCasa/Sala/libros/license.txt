@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bookshelf
+* source:	https://sketchfab.com/3d-models/bookshelf-757a0c65cebd45489cbe09a8163e7bc7
+* author:	Katia_M (https://sketchfab.com/Katia_M)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bookshelf" (https://sketchfab.com/3d-models/bookshelf-757a0c65cebd45489cbe09a8163e7bc7) by Katia_M (https://sketchfab.com/Katia_M) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
