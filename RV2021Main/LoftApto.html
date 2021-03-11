@@ -16,22 +16,25 @@
         <a-assets>
             <img id="skyTexture" src="assets/images/city.jpeg">
 
-            <a-assets-item id="cuarto" src="assets/models/ObjetosCasa/Cuarto/bed/scene.gltf"> </a-assets-item>
             <a-assets-item id="puertaentrada" src="assets/models/ObjetosCasa/Sala/simpledoor/scene.gltf"> </a-assets-item>
-            <a-assets-item id="kitchen" src="assets/models/ObjetosCasa/Cocina/kitchengas/scene.gltf"> </a-assets-item>
+            <a-assets-item id="ventana1" src="assets/models/ObjetosCasa/Sala/ventananueva/scene.gltf"> </a-assets-item>
+            <a-assets-item id="ventana2" src="assets/models/ObjetosCasa/Sala/ventananueva/scene.gltf"> </a-assets-item>
+            
+            
             <a-asset-item id="aptoloft" src="assets/models/casamodelada/aptodospisos.obj"></a-asset-item>
             <a-asset-item id="materialaptoloft" src="assets/models/casamodelada/aptodospisos.mtl"></a-asset-item>
-            >
+            
 
         </a-assets>
 
         <a-sky src="#skyTexture"></a-sky>
         
         <a-entity obj-model="obj: #aptoloft; mtl: #materialaptoloft" position="3 -4 6" rotation="0 180 0"></a-entity>
-
-        <a-entity gltf-model="#cuarto" scale="0.02 0.02 0.02" position="0 -3 4" static-body="type: mesh"></a-entity>
-        <a-entity gltf-model="#puertaentrada" scale="1.134 1.099 1.089" position="17.258 -4.035 16.061" static-body="type: mesh"></a-entity>
-        <a-entity gltf-model="#kitchen" scale="0.03 0.03 0.03" position="0 -3 -2" static-body="type: mesh"></a-entity>
+        
+        <a-entity gltf-model="#puertaentrada" scale="1.116 1.079 1.116" position="17.258 -4.035 15.941" static-body="type: mesh"></a-entity>
+        <a-entity gltf-model="#ventana1" scale="0.025 0.020 0.021" position="18.123 -2.618 5.602" rotation="0 90 0" static-body="type: mesh"></a-entity>
+        <a-entity gltf-model="#ventana2" scale="0.025 0.020 0.021" position="18.123 0.276 5.602" rotation="0 90 0" static-body="type: mesh"></a-entity>
+       
 
         <a-entity id="rig" camera look-controls wasd-controls position="0 0 0" jump-ability kinematic-body></a-entity>
         <a-plane position= "0 -2 -5" rotation= "90 0 0" scale="50 50 50" static-body></a-plane>
