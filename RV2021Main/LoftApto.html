@@ -92,8 +92,20 @@
         <a-entity gltf-model="#sofa2" scale="0.015 0.013 0.013" position="10.930 -3.694 0.410" rotation="0 -90 0"></a-entity>
 
         <!-- OTROS -->
-        <a-entity id="rig" camera look-controls wasd-controls position="14 -2 9" jump-ability kinematic-body></a-entity>
+        <a-entity id="rig" camera look-controls wasd-controls="acceleration : 200" position="14 -2 9"  jump-ability kinematic-body></a-entity>
         <a-plane position= "0 -2 -5" rotation= "90 0 0" scale="50 50 50" static-body></a-plane>
+
+        <!--MUROS PRINCIPALES-->
+        <a-box position="16 -3 -9" scale="1 20 50"  material="opacity: 0.0; transparent: true" static-body></a-box>
+        <a-box position="3 -3 -9" scale="1 20 50" material="opacity: 0.0; transparent: true" static-body></a-box>
+        <a-box position="14 -2 11" scale="20 20 1" material="opacity: 0.0; transparent: true" static-body></a-box>
+        <a-box position="14 -2 -12.5" scale="20 20 1" material="opacity: 0.0; transparent: true" static-body></a-box>
+
+        <!-- MUROS COCINA - BAÑO -->
+
+        <a-box position="19 -2 -8" scale="20 20 0.1" material="opacity: 0.0; transparent: true" static-body></a-box>
+
+
 
     </a-scene>
 </body>
