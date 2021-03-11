@@ -12,7 +12,7 @@
 </head>
 <body>
     
-    <a-scene physics="gravity: -9.8">
+    <a-scene physics="gravity: -20">
         <a-assets>
             <img id="skyTexture" src="assets/images/city.jpeg">
 
@@ -39,13 +39,13 @@
 
             <!-- COCINA -->
             <a-assets-item id="cocinaentera" src="assets/models/ObjetosCasa/Cocina/cocinaentera/scene.gltf"> </a-assets-item>
+            <a-assets-item id="basuracocina" src="assets/models/ObjetosCasa/Cocina/basura/scene.gltf"> </a-assets-item>
 
             <!-- MESON COCINA Y SILLAS -->
             <a-assets-item id="meson" src="assets/models/ObjetosCasa/Cocina/meson/scene.gltf"> </a-assets-item>
             <a-assets-item id="silla1" src="assets/models/ObjetosCasa/Sala/silla1/scene.gltf"> </a-assets-item>
             <a-assets-item id="silla2" src="assets/models/ObjetosCasa/Sala/silla2/scene.gltf"> </a-assets-item>
             <a-assets-item id="silla3" src="assets/models/ObjetosCasa/Sala/silla3/scene.gltf"> </a-assets-item>
-
 
             <!-- BAÑO -->
             <a-assets-item id="ventanabaño" src="assets/models/ObjetosCasa/Baño/ventanabaño/scene.gltf"> </a-assets-item>
@@ -54,7 +54,7 @@
             <a-assets-item id="lavamanos" src="assets/models/ObjetosCasa/Baño/sink/scene.gltf"> </a-assets-item>
             <a-assets-item id="inodoro" src="assets/models/ObjetosCasa/Baño/inodoro/scene.gltf"> </a-assets-item>
             <a-assets-item id="papel" src="assets/models/ObjetosCasa/Baño/papel/scene.gltf"> </a-assets-item>
-            <a-assets-item id="caneca" src="assets/models/ObjetosCasa/Baño/caneca/scene.gltf"> </a-assets-item>
+            <a-assets-item id="caneca" src="assets/models/ObjetosCasa/Baño/basura/scene.gltf"> </a-assets-item>
             
             <!-- SALA -->
             <a-assets-item id="tv" src="assets/models/ObjetosCasa/Sala/tvstand/scene.gltf"> </a-assets-item>
@@ -62,6 +62,7 @@
             <a-assets-item id="sofa2" src="assets/models/ObjetosCasa/Sala/sofa2/scene.gltf"> </a-assets-item>
             <a-assets-item id="mesita" src="assets/models/ObjetosCasa/Sala/mesita/scene.gltf"> </a-assets-item>
             <a-assets-item id="planta" src="assets/models/ObjetosCasa/Sala/planta/scene.gltf"> </a-assets-item>
+            <a-assets-item id="vidrio2piso" src="assets/models/ObjetosCasa/Sala/vidrio/scene.gltf"> </a-assets-item>
            
 
         </a-assets>
@@ -89,13 +90,13 @@
 
         <!-- IMPORTAR DE LA COCINA -->
         <a-entity gltf-model="#cocinaentera" scale="0.035 0.027 0.035" position="10.943 -4.190 -7.471" rotation="0 0 0"></a-entity>
+        <a-entity gltf-model="#basuracocina" scale="0.0021 0.0021 0.0021" position="13.343 -4.190 -7.071" rotation="0 90 0"></a-entity>
 
-         <!-- IMPORTAR MESON DE LA COCINA Y SILLAS -->
-         <a-entity gltf-model="#meson" scale="2 1.4 1.7" position="10.281 -4.177 -4.163" rotation="0 180 0"></a-entity>
-         <a-entity gltf-model="#silla1" scale="0.004 0.004 0.004" position="11.175 -4.035 -2.666" rotation="0 180 0"></a-entity>
-         <a-entity gltf-model="#silla2" scale="0.004 0.004 0.004" position="10.076 -4.035 -2.666" rotation="0 180 0"></a-entity>
-        
-         <a-entity gltf-model="#silla3" scale="0.004 0.004 0.004" position="9.000 -4.035 -2.666" rotation="0 180 0"></a-entity>
+        <!-- IMPORTAR MESON DE LA COCINA Y SILLAS -->
+        <a-entity gltf-model="#meson" scale="2 1.4 1.7" position="10.281 -4.177 -4.163" rotation="0 180 0"></a-entity>
+        <a-entity gltf-model="#silla1" scale="0.004 0.004 0.004" position="11.175 -4.035 -2.666" rotation="0 180 0"></a-entity>
+        <a-entity gltf-model="#silla2" scale="0.004 0.004 0.004" position="10.076 -4.035 -2.666" rotation="0 180 0"></a-entity>
+        <a-entity gltf-model="#silla3" scale="0.004 0.004 0.004" position="9.000 -4.035 -2.666" rotation="0 180 0"></a-entity>
         
         <!-- IMPORTAR DEL BAÑO -->
         <a-entity gltf-model="#ventanabaño" scale="0.018 0.015 0.01" position="15.168 -2.620 -9.650" rotation="0 90 0"></a-entity>
@@ -104,14 +105,15 @@
         <a-entity gltf-model="#lavamanos" scale="2.253 1.409 1.548" position="12.823 -2.428 -8.228" rotation="0 180 0"></a-entity>
         <a-entity gltf-model="#inodoro" scale="0.623 0.555 0.555" position="9.842 -4.051 -7.987" rotation="0 180 0"></a-entity>
         <a-entity gltf-model="#papel" scale="0.001 0.001 0.001" position="10.583 -3.423 -7.854" rotation="0 90 0"></a-entity>
-        <a-entity gltf-model="#caneca" scale="0.047 0.032 0.047" position="8.745 -3.939 -7.933" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#caneca" scale="0.002 0.002 0.002" position="8.945 -3.939 -7.933" rotation="0 90 0"></a-entity>
         
         <!-- IMPORTAR DE LA SALA -->
         <a-entity gltf-model="#tv" scale="2 2 2" position="7.551 -4.150 3.845" rotation="0 90 0"></a-entity>
         <a-entity gltf-model="#sofa1" scale="0.007 0.007 0.007" position="13.900 -4.150 3.845" rotation="0 -90 0"></a-entity>
-        <a-entity gltf-model="#sofa2" scale="0.015 0.013 0.013" position="10.930 -3.694 1.040" rotation="0 -90 0"></a-entity>
+        <a-entity gltf-model="#sofa2" scale="0.015 0.013 0.013" position="10.930 -3.383 1.040" rotation="0 -90 0"></a-entity>
         <a-entity gltf-model="#mesita" scale="0.023 0.023 0.023" position="10.587 -4.035 4.084" rotation="0 -90 0"></a-entity>
         <a-entity gltf-model="#planta" scale="1 1.200 1" position="14.185 -4.010 1.563" rotation="0 0 0"></a-entity>
+        <a-entity gltf-model="#vidrio2piso" scale="1.128 0.245 0.232" position="8.310 -0.530 -2.350" rotation="-90 180 0"></a-entity>
        
 
         <!-- OTROS -->
@@ -128,9 +130,7 @@
         <a-box position="19 -9 -7.5" scale="20 20 0.000001" material="opacity: 0.0; transparent: true" static-body></a-box>
         <a-box position="8.396 -2.403 -8.104" scale="3 4.5 0.001" rotation="0 90 0" material="opacity: 0.0; transparent: true" static-body></a-box>
         
-
-        <!-- ESCALERAS Y BARANDA-->
-
+        <!-- ESCALERAS -->
         <a-plane position="4.850 -2.412 2.397" rotation="-54.116 0 0" scale="1.660 11.000 0.017" material="opacity: 0.0; transparent: true" static-body></a-plane>
         <a-box position="9.5 2.4 -1.220" scale="7 1 0.000001" material="opacity: 0.0; transparent: true" static-body></a-box>
       
