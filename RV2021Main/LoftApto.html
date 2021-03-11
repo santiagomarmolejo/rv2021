@@ -39,6 +39,8 @@
 
             <!-- BAÑO -->
             <a-assets-item id="ventanabaño" src="assets/models/ObjetosCasa/Baño/ventanabaño/scene.gltf"> </a-assets-item>
+            <a-assets-item id="tina" src="assets/models/ObjetosCasa/Baño/tina/scene.gltf"> </a-assets-item>
+            <a-assets-item id="plantabaño" src="assets/models/ObjetosCasa/Baño/plantabaño/scene.gltf"> </a-assets-item>
             
             
 
@@ -67,7 +69,10 @@
 
         <!-- IMPORTAR DEL BAÑO -->
         <a-entity gltf-model="#ventanabaño" scale="0.018 0.015 0.01" position="15.168 -2.620 -9.650" rotation="0 90 0"></a-entity>
+        <a-entity gltf-model="#tina" scale="0.02 0.015 0.015" position="15.589 -4.107 -17.321" rotation="0 0 0"></a-entity>
+        <a-entity gltf-model="#plantabaño" scale="1 0.814 1" position="14.070 -4.030 -8.349" rotation="0 0 0"></a-entity>
 
+        <!-- OTROS -->
         <a-entity id="rig" camera look-controls wasd-controls position="14 -2 9" jump-ability kinematic-body></a-entity>
         <a-plane position= "0 -2 -5" rotation= "90 0 0" scale="50 50 50" static-body></a-plane>
 
