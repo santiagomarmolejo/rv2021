@@ -16,6 +16,9 @@
         <a-assets>
             <img id="skyTexture" src="assets/images/city.jpeg">
 
+            <!-- SONIDO AMBIENTE -->
+            <audio id="ambiente" src="assets/sound/ambient/sonido1.mp3"></audio>
+
             <!-- APARTAMENTO LOFT -->
             <a-asset-item id="aptoloft" src="assets/models/casamodelada/aptofinalfinal.obj"></a-asset-item>
             <a-asset-item id="materialaptoloft" src="assets/models/casamodelada/aptofinalfinal.mtl"></a-asset-item>
@@ -63,6 +66,10 @@
 
         <a-sky src="#skyTexture"></a-sky>
         
+        <!-- IMPORTAR SONIDO -->
+
+        <a-box position="3.025 -2.657 -1.254" color="black" sound="src: #ambiente; autoplay: true; loop: true; rolloffactor:20; maxDistance:20;"></a-box>
+
         <!-- IMPORTAR APARTAMENTO LOFT -->
         <a-entity obj-model="obj: #aptoloft; mtl: #materialaptoloft" position="0 -4 0" rotation="0 180 0"></a-entity>
         
