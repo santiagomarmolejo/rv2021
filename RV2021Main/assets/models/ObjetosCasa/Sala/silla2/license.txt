@@ -1,0 +1,11 @@
+Model Information:
+* title:	modern chair
+* source:	https://sketchfab.com/3d-models/modern-chair-7a326614af3a482ca5e7f7d45f3d9e02
+* author:	MakishiPrime (https://sketchfab.com/MakishiPrime)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "modern chair" (https://sketchfab.com/3d-models/modern-chair-7a326614af3a482ca5e7f7d45f3d9e02) by MakishiPrime (https://sketchfab.com/MakishiPrime) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
