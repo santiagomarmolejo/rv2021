@@ -73,7 +73,7 @@
 
         </a-assets>
 
-        <a-sky src="#skyTexture"></a-sky>
+        <a-sky src="#skyTexture" rotation="0 90 0"></a-sky>
         
         <!-- IMPORTAR SONIDO -->
         <a-box position="3.025 -2.657 -1.254" color="black" sound="src: #ambiente; autoplay: true; loop: true; rolloffactor:20; maxDistance:20;"></a-box>
@@ -123,7 +123,7 @@
        
 
         <!-- OTROS -->
-        <a-entity id="rig" camera look-controls wasd-controls="acceleration : 150" position="14 -2 9"  jump-ability kinematic-body></a-entity>
+        <a-entity id="rig" camera look-controls wasd-controls="acceleration : 150" position="14 -2 9" kinematic-body></a-entity>
         <a-plane position= "0 -2 -5" rotation= "90 0 0" scale="50 50 50" static-body></a-plane>
 
         <!--MUROS PRINCIPALES-->
@@ -146,17 +146,10 @@
         <!--   <a-plane position="9.518 0.343 -4.776"  scale="12.157 5.770 1" rotation="-90.000 0 0" material="opacity: 0.0; transparent: true" static-body></a-plane> -->
         <a-box position="9.518 0.900 -6.979"  scale="12.157 9.787 0.00001" rotation="-90 0 0" material="opacity: 0.0; transparent: true" static-body></a-box> 
 
-<<<<<<< HEAD
         <!--  PAREDES SEGUNDO PISO    -->
         <a-box position="10.5 2.653 -9" scale="7.205 4.5 0.00000001" rotation="0 90 0" material="opacity: 0.0; transparent: true" static-body></a-box>
         <a-box position="14.468 2.5 -4.146" scale="3 1 0.001" material="opacity: 0.0; transparent: true" static-body></a-box>
         <a-box position="6.207 2.5 -4.356" scale="3 1 0.001" material="opacity: 0.0; transparent: true" static-body></a-box>
-=======
-      <!--  PAREDES SEGUNDO PISO    -->
-      <a-box position="10.5 3 -9" scale="7.205 4.5 0.00000001" rotation="0 90 0" material="opacity: 0.0; transparent: true" static-body></a-box>
-      <a-box position="14.468 2.5 -4.146" scale="3 1 0.001" material="opacity: 0.0; transparent: true" static-body></a-box>
-      <a-box position="6.207 2.5 -4.356" scale="3 1 0.001" material="opacity: 0.0; transparent: true" static-body></a-box>
->>>>>>> 883f598b515227a0aaf278ad661ca0fe7ba01fc2
       
 
     </a-scene>
