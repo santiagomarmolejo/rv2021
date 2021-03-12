@@ -1,4 +1,4 @@
-Gabriel A. Jeanott - 2185887
+Gabriel A. Jeannot - 2185887
 Santiago Marmolejo - 2185317
 Juan Carlos Lopez - 2175639
 Raul A. Martinez - 2185502
