@@ -3,8 +3,22 @@ Santiago Marmolejo - 2185317
 Juan Carlos Lopez - 2175639
 Raul A. Martinez - 2185502
 
-Descripción: Apartamento tipo Loft de estrato 6, incluye dos cuartos, un baño, cocina, 
+Descripción: 
+
+Apartamento tipo Loft de estrato 6, incluye dos cuartos, un baño, cocina, 
 sala y dos pisos. Posee tonalidades neutras y una vista agradable a la ciudad.
+
+La importancia de este proyecto radica en ofrecer una nueva experiencia tipo Realidad 
+Virtual, la cual consiste en un entorno generado mediante tecnología informática, con el 
+fin de generar una inmersión mayor a los usuarios. Es por esto que decidimos elaborar 
+esta experiencia.
+
+Problemas y soluciones: 
+
+Primero que todo, cabe mencionar que no tuvimos ningún problema con temas de iluminación
+o uso del sonido, y, diseñamos la estructura del apartamento, es decir, la división de 
+los cuartos, el baño, las escaleras y los dos pisos en la aplicación de modelado 3D:
+Autodesk Maya.
 
 Para la realización de este proyecto en el grupo tuvimos varios inconvenientes a la hora 
 de importar objetos en la escena de realidad virtual del apartamento tipo loft. El 
@@ -31,6 +45,20 @@ invicibles, o en su defecto que esta no tenga demasiados. La colisión de las es
 también fue un poco engañosa, pues no funcionaba solo con cubos, por lo que decidimos
 combinar cubos y planos y posicionarlos en diagonal, de esta forma se pueden usar las 
 escaleras para subir al segundo piso y ver los cuartos.
+
+Sin embargo, y a pesar de las soluciones que encontramos respecto a las colisiones con
+las paredes y los objetos, hay un pequeño "bug" que se mantuvo, siendo que, en la pared
+ubicada a la izquierda de las escaleras, a veces la colisión no se efectúa, la mayor 
+parte del tiempo no pasa nada y la colisión funciona como debería, pero algunas veces
+algo sucede y esta colisión no toma lugar, ocasionando que la cámara traspase la pared
+y caiga en caída libre fuera del apartamento. 
+
+Tuvimos dificultades en encontrar un skymap que representara una luz tenue y oscura, 
+o que, en su defecto, fuera de noche, es por esto que optamos por utilizar un skymap 
+de una ciudad costera de día, y posteriormente procedimos a editar dicha imagen en 
+Photoshop, donde jugamos con la saturación de colores, las tonalidades del cielo y la 
+exposición del color, transformando el skymap en una vista que, sin duda, representa la 
+sensación de un apartamento moderno y muy bien ubicado.
  
 Finalmente, decidimos dejar las puertas cerradas pero la persona que use la experiencia 
 podrá traspasarlas para ingresar al cuarto, esto lo hicimos por motivos esteticos, ya que 
